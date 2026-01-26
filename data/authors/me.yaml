@@ -1,116 +1,144 @@
-schema: hugoblox/author/v1
-slug: me
+schema: "hugoblox/author/v1"
+slug: "me"
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
+  display: "Feiyue Xia"
+  given: "Feiyue"
+  family: "Xia"
+  alternate: "夏飞月"
+  pronunciation: "Xià Fēi Yuè"
+  pronouns: "he/him"
 postnominals:
-  - PhD
-  - MIEEE
+  - "Ph.D."
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
-bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  icon: "🔬"
+role: "Ph.D candidate"
+bio: "Feiyue Xia is a dedicated Ph.D. student in Petroleum Engineering at The University of Texas at Austin, where he conducts research under the supervision of Professor Carlos Torres-Verdín. His work focuses on advancing acoustic logging processing techniques to address contemporary challenges in energy development.\ 
 
+  Building on a strong foundation established under Professor Xiao-Ming Tang at the China University of Petroleum (East China), Feiyue specializes in the integration of borehole geophysics, rock physics, and formation evaluation. His academic experience extends internationally, including study programs in Italy and Russia, as well as participation in the IPTC Educational Week in 2019. Feiyue has been recognized with several notable distinctions, including the SPWLA Scholarship (2019) and the UT Engineering School Fellowship (2022–2026).\ 
+
+  Committed to continued academic and professional growth, he brings enthusiasm, focus, and a global perspective to the fields of energy and geoscience engineering.\n"
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
-
+  - name: "University of Texas at Austin, PGE"
+    url: "https://sites.utexas.edu/formation/"
 links:
-  - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
-
+  - icon: "hero/at-symbol"
+    url: "mailto:feiyue.xia@utexas.edu"
+    label: "Email"
+  - icon: "brands/linkedin"
+    url: "www.linkedin.com/in/feiyue-xia"
+    label: "linkedln"
+  - icon: "academicons/google-scholar"
+    url: "https://scholar.google.com/citations?user=vLNx3ogAAAAJ&hl=en"
+    label: "google scholar"
+  - icon: "academicons/orcid"
+    url: "https://orcid.org/0009-0006-3095-5811"
+  - icon: "academicons/researchgate"
+    url: "https://www.researchgate.net/profile/Feiyue-Xia?ev=hdr_xprf"
+    label: "ResearchGate"
+  - icon: "brands/github"
+    url: "https://github.com/Timothy-Xia"
+    label: "Github"
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
-
+  - "Borehole Geophysics"
+  - "Rock physics and Petrophysics"
+  - "Time-lapse data processing and analysis"
+  - "Formation evaluation"
+  - "Elastic waves modeling and inversion"
+  - "Ultrasonic Reflection modeling and experiments"
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+  - degree: "Ph.D. in Petroleum Engineering"
+    institution: "The University of Texas at Austin"
+    start: "2022-09-01"
+    end: "2027-06-30"
+    summary: "Thesis on advanced high-reslution borehole acoustic tomographic imaging.\n"
     button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
-
+      text: "Download dissertation (not yet available)"
+      url: "/resume.pdf"
+      icon: "hero/arrow-down-tray"
+  - degree: " M.S. in Geological Resrouces and Geological Engineering"
+    institution: "China University of Petroleum (East China)"
+    start: "2019-09-01"
+    end: "2022-05-31"
+    summary: "Thesis on forward modeling of borehole acoustic measurements in the cracked porous formations.\n"
+    button:
+      text: "Download dissertation (Chinese)"
+      url: "/resume.pdf"
+      icon: "hero/arrow-down-tray"
+  - degree: "B.S. in Exploration Technology and Engineering"
+    institution: "China University of Petroleum (East China)"
+    start: "2015-09-01"
+    end: "2022-05-31"
+    summary: "Thesis on design of an acoustic isolation body for small-sized sonic logging while drilling tool.\n"
+    button:
+      text: "Download dissertation (Chinese)"
+      url: "/resume.pdf"
+      icon: "hero/arrow-down-tray"
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: "Graduate Research Assistant"
+    org: "University of Texas at Austin"
+    start: "2022-09-01"
+    end: "2027-06-01"
+    summary: "1.High-Resolution Acoustic Tomography – Developing traveltime and Full Waveform Inversion (FWI) algorithms to enhance subsurface imaging, including processing of field data from latest-generation acoustic logging tools.<br>
 
+      2.DAS-Based Cement Evaluation – Leveraging Distributed Acoustic Sensing (DAS) data and tube-wave propagation analysis to assess cement integrity and zonal isolation in cased-hole environments.<br>
+
+      3.Azimuthal Anisotropy Characterization – Integrating numerical ultrasonic reflection modeling with experimental validation to quantify azimuthal anisotropic formation properties.\n"
+  - role: "R & D Intern"
+    org: "Halliburton"
+    start: "2024-05-01"
+    end: "2024-08-01"
+    summary: "Developed a joint inversion workflow to enhance the estimation of pore shapes and their fractions in carbonate rocks by combining T2 distribution and rock physics models.\n"
+  - role: "R & D Intern"
+    org: "Halliburton"
+    start: "2025-05-01"
+    end: "2025-08-01"
+    summary: "Developed a borehole acoustic reflection traveltime tomography method to reconstruct velocity distribution within 10 meters away from the borehole by using monopole reflected arrivals from subsurface reflectors.\n"
 skills:
-  - name: Technical Skills
+  - name: "Technical Skills"
     items:
-      - label: Python
+      - label: "C/C++ and Fortran Programming"
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: "High Performance Computing (HPC)"
         level: 4
-  - name: Research & Communication
+      - label: "Sofwtware Development based on (MATLAB, Python)"
+        level: 4
+  - name: "Research & Communication"
     items:
-      - label: Academic Writing
+      - label: "Technical & Academic Writing"
         level: 5
-      - label: Conference Presentations
+      - label: "Conference Presentations"
         level: 4
-      - label: Grant Proposals
+      - label: "Data Analysis & Visualization"
         level: 4
-
 languages:
-  - name: English
+  - name: "Chinese"
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
-
+    label: "Native"
+  - name: "English"
+    level: 4.5
+    label: "Fluent"
+  - name: "Russian"
+    level: 2
+    label: "Basic"
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: "UT Engineering Fellowship"
+    awarder: "The University of Texas at Austin"
+    date: "2022-9-01"
+    summary: "A fellowship awarded to top-tier graduate applicants at the Cockrell School of Engineering based on academic excellence and research potential"
+    icon: "hero/trophy"
+  - title: "SPWLA Scholarship"
+    awarder: "Society of Petrophysicists and Well Log Analysts (SPWLA)"
+    date: "2019-10-01"
+    summary: "A scholarship granted to outstanding students in the field of petrophysics and well logging who demonstrate academic excellence and a strong interest in the discipline."
+    icon: "hero/trophy"
+service:
+  - role: "Student Volunteer"
+    org: "IPTC Educational Week 2019"
+    date: "2019-11-01"
+    summary: "Assisted in organizing and facilitating various activities during the IPTC Educational Week, contributing to the smooth operation of the event and enhancing the experience for attendees."
+    icon: "hero/hands-helping"
+ids:
+  orcid: "0009-0006-3095-5811"
+  google_scholar: "Feiyue Xia"
+  research_gate: "Feiyue Xia"

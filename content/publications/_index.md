@@ -1,12 +1,35 @@
 ---
-title: Publications
-cms_exclude: true
+title: 'Publications'
+date: 2023-10-24
+type: landing
 
-# View.
-view: citation
+design:
+  spacing: '5rem'
 
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+# Note: `username` refers to the user's folder name in `content/authors/`
+
+# Page sections
+sections:
+  - block: collection
+    content:
+      title: ''
+      text: ''
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+    design:
+      view: citation
+  # - block: resume-skills
+  #   content:
+  #     title: Skills & Hobbies
+  #     username: me
+  # - block: resume-awards
+  #   content:
+  #     title: Awards
+  #     username: me
+  # - block: resume-languages
+  #   content:
+  #     title: Languages
+  #     username: me
 ---
