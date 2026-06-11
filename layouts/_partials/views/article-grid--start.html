@@ -1,0 +1,9 @@
+{{ $columns := .config.columns | default 2 }}
+{{ $len := .config.len | default 2 }}
+{{/* Project override: don't stretch a lone/few cards across more columns than
+     there are items, which otherwise produces a single narrow card in a
+     multi-column grid (e.g. one blog post in a 3-column "Recent Posts"). */}}
+{{ if and (gt $len 0) (lt $len $columns) }}{{ $columns = $len }}{{ end }}
+{{/* NOTE: dynamic `md:grid-cols-{{$columns}}` class requires Tailwind exception */}}
+<div class="container px-8 mx-auto xl:px-5 py-5 lg:py-8 {{ if eq $len 1 }}max-w-[500px] justify-center{{else}}max-w-screen-lg {{end}}">
+  <div class="grid gap-10 md:grid-cols-{{$columns}} lg:gap-10">

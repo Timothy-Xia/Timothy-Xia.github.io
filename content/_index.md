@@ -51,6 +51,17 @@ sections:
   #     columns: '1'
   - block: collection
     content:
+      title: Selected Publications
+      text: ''
+      filters:
+        folders:
+          - publications
+        featured_only: true
+      count: 3
+    design:
+      view: citation
+  - block: collection
+    content:
       title: Featured Projects
       filters:
         folders:
@@ -63,63 +74,20 @@ sections:
       show_date: false
       show_read_time: false
       show_read_more: false
-  # - block: collection
-  #   content:
-  #     title: Featured Projects
-  #     filters:
-  #       folders:
-  #         - projects
-  #       featured_only: true
-  #   design:
-  #     view: article-grid
-     # columns: 2
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: ''
-  #     filters:
-  #       folders:
-  #         - publications
-  #       exclude_featured: false
-  #   design:
-  #     view: citation
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - events
-  #   design:
-  #     view: card
   - block: collection
     id: news
     content:
-      title: Featured Blogs
-      subtitle: ''
+      title: Recent Posts
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
       count: 3
-      # Filter on criteria
       filters:
-        author: ''
-        category: ''
-        tag: ''
+        folders:
+          - blog
         exclude_featured: false
         exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: article-grid
       columns: 3
-      # Reduce spacing
-      # spacing:
-      #   padding: [0, 0, 0, 0]
 ---

@@ -13,11 +13,10 @@ postnominals:
 status:
   icon: "🔬"
 role: "Ph.D candidate"
-bio: "Feiyue Xia is a dedicated Ph.D. student in Petroleum Engineering at The University of Texas at Austin, where he conducts research under the supervision of Professor Carlos Torres-Verdín. His work focuses on advancing acoustic logging processing techniques to address contemporary challenges in energy development.\ 
+bio: |
+  Feiyue Xia is a Ph.D. student in Petroleum Engineering at The University of Texas at Austin, advised by Professor Carlos Torres-Verdín. His research develops modeling and inversion methods for borehole acoustic measurements — including fast 3D eikonal simulation, adjoint-state first-arrival and reflection traveltime tomography, and finite-difference modeling of elastic and poroelastic wave propagation — to reconstruct high-resolution near- and far-borehole velocity images and improve formation evaluation in high-angle and horizontal wells.
 
-  Building on a strong foundation established under Professor Xiao-Ming Tang at the China University of Petroleum (East China), Feiyue specializes in the integration of borehole geophysics, rock physics, and formation evaluation. His academic experience extends internationally, including study programs in Italy and Russia, as well as participation in the IPTC Educational Week in 2019. Feiyue has been recognized with several notable distinctions, including the SPWLA Scholarship (2019) and the UT Engineering School Fellowship (2022–2026).\ 
-
-  Committed to continued academic and professional growth, he brings enthusiasm, focus, and a global perspective to the fields of energy and geoscience engineering.\n"
+  He earned his M.S. under Professor Xiao-Ming Tang at the China University of Petroleum (East China), where he studied forward modeling of borehole acoustic waves in cracked porous formations, with additional international study programs in Italy and Russia. His broader interests span borehole geophysics, rock physics, and ultrasonic reflection modeling and experiments, supported by a strong programming foundation in C/C++, Fortran, and Python with high-performance computing.
 affiliations:
   - name: "University of Texas at Austin, PGE"
     url: "https://sites.utexas.edu/formation/"
@@ -26,8 +25,8 @@ links:
     url: "mailto:feiyue.xia@utexas.edu"
     label: "Email"
   - icon: "brands/linkedin"
-    url: "www.linkedin.com/in/feiyue-xia"
-    label: "linkedln"
+    url: "https://www.linkedin.com/in/feiyue-xia"
+    label: "LinkedIn"
   - icon: "academicons/google-scholar"
     url: "https://scholar.google.com/citations?user=vLNx3ogAAAAJ&hl=en"
     label: "google scholar"
@@ -49,15 +48,17 @@ interests:
 education:
   - degree: "Ph.D. in Petroleum Engineering"
     institution: "The University of Texas at Austin"
+    logo: "UT.svg"
     start: "2022-09-01"
     end: "2027-06-30"
-    summary: "Thesis on advanced high-reslution borehole acoustic tomographic imaging.\n"
+    summary: "Thesis on advanced high-resolution borehole acoustic tomographic imaging.\n"
     button:
       text: "Download dissertation (not yet available)"
       url: "/resume.pdf"
       icon: "hero/arrow-down-tray"
-  - degree: " M.S. in Geological Resrouces and Geological Engineering"
+  - degree: "M.S. in Geological Resources and Geological Engineering"
     institution: "China University of Petroleum (East China)"
+    logo: "UPC_logo.jpg"
     start: "2019-09-01"
     end: "2022-05-31"
     summary: "Thesis on forward modeling of borehole acoustic measurements in the cracked porous formations.\n"
@@ -67,6 +68,7 @@ education:
       icon: "hero/arrow-down-tray"
   - degree: "B.S. in Exploration Technology and Engineering"
     institution: "China University of Petroleum (East China)"
+    logo: "UPC_logo.jpg"
     start: "2015-09-01"
     end: "2022-05-31"
     summary: "Thesis on design of an acoustic isolation body for small-sized sonic logging while drilling tool.\n"
@@ -77,6 +79,7 @@ education:
 experience:
   - role: "Graduate Research Assistant"
     org: "University of Texas at Austin"
+    logo: "UT.svg"
     start: "2022-09-01"
     end: "2027-06-01"
     summary: "1.High-Resolution Acoustic Tomography – Developing traveltime and Full Waveform Inversion (FWI) algorithms to enhance subsurface imaging, including processing of field data from latest-generation acoustic logging tools.<br>
@@ -86,11 +89,13 @@ experience:
       3.Azimuthal Anisotropy Characterization – Integrating numerical ultrasonic reflection modeling with experimental validation to quantify azimuthal anisotropic formation properties.\n"
   - role: "R & D Intern"
     org: "Halliburton"
+    logo: "HAL_logo.jpeg"
     start: "2024-05-01"
     end: "2024-08-01"
     summary: "Developed a joint inversion workflow to enhance the estimation of pore shapes and their fractions in carbonate rocks by combining T2 distribution and rock physics models.\n"
   - role: "R & D Intern"
     org: "Halliburton"
+    logo: "HAL_logo.jpeg"
     start: "2025-05-01"
     end: "2025-08-01"
     summary: "Developed a borehole acoustic reflection traveltime tomography method to reconstruct velocity distribution within 10 meters away from the borehole by using monopole reflected arrivals from subsurface reflectors.\n"
@@ -101,7 +106,7 @@ skills:
         level: 5
       - label: "High Performance Computing (HPC)"
         level: 4
-      - label: "Sofwtware Development based on (MATLAB, Python)"
+      - label: "Software Development (MATLAB, Python)"
         level: 4
   - name: "Research & Communication"
     items:
@@ -124,20 +129,29 @@ languages:
 awards:
   - title: "UT Engineering Fellowship"
     awarder: "The University of Texas at Austin"
-    date: "2022-9-01"
-    summary: "A fellowship awarded to top-tier graduate applicants at the Cockrell School of Engineering based on academic excellence and research potential"
+    date: "2022-09-01"
+    summary: "University-level fellowship ($36k total, 2022–2026) awarded to top-tier graduate applicants at the Cockrell School of Engineering based on academic excellence and research potential."
+    icon: "hero/trophy"
+  - title: "CNPC Scholarship"
+    awarder: "China National Petroleum Corporation"
+    date: "2021-11-01"
+    summary: "National-level scholarship recognizing outstanding academic performance and research potential in petroleum-related disciplines."
     icon: "hero/trophy"
   - title: "SPWLA Scholarship"
-    awarder: "Society of Petrophysicists and Well Log Analysts (SPWLA)"
+    awarder: "Society of Petrophysicists and Well Log Analysts (SPWLA), USA"
     date: "2019-10-01"
-    summary: "A scholarship granted to outstanding students in the field of petrophysics and well logging who demonstrate academic excellence and a strong interest in the discipline."
+    summary: "International-level scholarship ($2k) granted to outstanding students in petrophysics and well logging who demonstrate academic excellence and a strong interest in the discipline."
     icon: "hero/trophy"
-service:
-  - role: "Student Volunteer"
-    org: "IPTC Educational Week 2019"
-    date: "2019-11-01"
-    summary: "Assisted in organizing and facilitating various activities during the IPTC Educational Week, contributing to the smooth operation of the event and enhancing the experience for attendees."
-    icon: "hero/hands-helping"
+  - title: "Special Award, National Well Logging Skills Competition"
+    awarder: "China Petroleum Association"
+    date: "2019-06-01"
+    summary: "National-level competition award, ranked 1st of 36 teams."
+    icon: "hero/star"
+  - title: "Honorable Mention, Mathematical Contest in Modeling (MCM)"
+    awarder: "COMAP (Consortium for Mathematics and Its Applications), USA"
+    date: "2019-02-01"
+    summary: "International-level recognition (Top 15%) in the American Mathematical Contest in Modeling."
+    icon: "hero/star"
 ids:
   orcid: "0009-0006-3095-5811"
   google_scholar: "Feiyue Xia"

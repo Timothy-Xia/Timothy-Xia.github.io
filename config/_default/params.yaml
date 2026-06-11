@@ -10,7 +10,7 @@ hugoblox:
     mode: system
     pack: minimal
     colors:
-      primary: ""
+      primary: "#BF5700" # UT Austin burnt orange
       secondary: ""
       neutral: ""
   typography:
@@ -26,6 +26,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
+    show_logo: true
     theme_toggle: true
   footer:
     style: minimal

@@ -1,0 +1,29 @@
+# Academic activities & service entries shown on the Experience page.
+# This reuses the `resume-awards` block, which reads the `awards` key, so the
+# items below are stored under `awards:`. Referenced via `username: service`
+# in content/experience.md.
+schema: "hugoblox/author/v1"
+slug: "service"
+name:
+  display: "Academic Activities & Service"
+awards:
+  - title: "Session Chair & Volunteer"
+    awarder: "IMAGE Conference"
+    date: "2024-08-01"
+    summary: "Chaired the *Advances in Sonic and DAS VSP Imaging* session in 2024 (~40 participants), coordinating the sequence and timing of live presentations; volunteered in a 2025 poster session, supporting presenters and guiding attendees."
+    icon: "hero/microphone"
+  - title: "Board Member"
+    awarder: "SPWLA UT Student Chapter"
+    date: "2022-09-01"
+    summary: "Organized and coordinated bi-semester seminars and designed promotional materials (posters and flyers) to grow seminar attendance (2022–present)."
+    icon: "hero/users"
+  - title: "Peer Reviewer"
+    awarder: "Geophysics & Petrophysics Journals"
+    date: "2023-01-01"
+    summary: "Reviewed manuscripts on geophysical imaging, petrophysical analysis, and well-logging methods, providing detailed technical feedback to improve scientific rigor and clarity (2023–present)."
+    icon: "hero/document-text"
+  - title: "Student Representative"
+    awarder: "IPTC Educational Week, Beijing"
+    date: "2019-05-01"
+    summary: "Represented the university in the IPTC Educational Week Program and led a team of eight students researching microseismic monitoring applications for oil fields."
+    icon: "hero/academic-cap"

@@ -12,11 +12,23 @@ design:
 sections:
   - block: collection
     content:
-      title: ''
+      title: Journal Articles
       text: ''
       filters:
         folders:
           - publications
+        publication_type: article-journal
+        exclude_featured: false
+    design:
+      view: citation
+  - block: collection
+    content:
+      title: Conference Papers
+      text: ''
+      filters:
+        folders:
+          - publications
+        publication_type: paper-conference
         exclude_featured: false
     design:
       view: citation

@@ -24,12 +24,12 @@ sections:
       username: me
   - block: resume-awards
     content:
-      title: Awards
+      title: Honors & Awards
       username: me
   - block: resume-awards
     content:
-      title: Service
-      username: me
+      title: Academic Activities & Service
+      username: service
   - block: resume-languages
     content:
       title: Languages
