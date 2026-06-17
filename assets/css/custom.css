@@ -43,3 +43,11 @@ h3,
 .text-3xl.font-bold {
   margin-bottom: 1.75rem;
 }
+
+/* Header logo (logo.svg is inlined by the theme): burnt orange that brightens
+   in dark mode. Driven by the .dark class the theme toggles on <html>, since an
+   inlined SVG can't see the site's manual theme toggle via prefers-color-scheme. */
+.dark svg[aria-label="Feiyue Xia logo"] .mk {
+  fill: #e0772b;
+  stroke: #e0772b;
+}
