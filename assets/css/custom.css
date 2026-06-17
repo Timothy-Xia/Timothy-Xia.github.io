@@ -1,0 +1,45 @@
+/* =========================================================================
+   Direction A — Refined academic
+   Serif display headings (Source Serif 4) over a sans body (Inter), airy
+   spacing, and a single restrained burnt-orange accent under the hero name.
+   This file is auto-loaded by the theme (assets/css/custom.css) and is NOT
+   processed by Tailwind, so arbitrary selectors are safe here.
+   ========================================================================= */
+
+:root {
+  --site-serif: "Source Serif 4", ui-serif, Georgia, Cambria, "Times New Roman", serif;
+}
+
+/* Serif on display + section headings; body copy stays sans.
+   .text-3xl.font-bold targets the theme's centered collection section titles
+   ("Selected Publications", "Journal Articles", ...) which render as a <div>. */
+h1,
+h2,
+h3,
+.text-3xl.font-bold {
+  font-family: var(--site-serif);
+  letter-spacing: -0.005em;
+}
+
+/* Hero name: trade the heavy 900 weight for an elegant serif 600. */
+.blox-resume-biography-3 h1.font-black {
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+/* Signature restrained accent: a short burnt-orange rule under the name.
+   The hero column is centred, so margin-auto centres the rule. */
+.blox-resume-biography-3 h1.font-black::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 2px;
+  margin: 0.85rem auto 0;
+  background: var(--color-primary-600, #bf5700);
+  border-radius: 1px;
+}
+
+/* A touch more breathing room beneath section titles for the airy feel. */
+.text-3xl.font-bold {
+  margin-bottom: 1.75rem;
+}
